@@ -27,11 +27,11 @@ $("#search").keydown(function(event){
 function printResults(){
 
   //Refresh results
-  $('#results').empty();
-  $('#body').css("overflow-y", "visible");
   $(".container-fluid").css("height", "auto");
   $('.vertical-center').css("transform", "translateY(5%)");
   $('.vertical-center').css("height", "0%");
+  $('#results').empty();
+  $('#body').css("overflow-y", "visible");
 
   // Get search from user and construct a url
 	var searchResult = document.getElementById('search').value;

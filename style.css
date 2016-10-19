@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
 body{
-	background-color: #092b40;
+	background-color: #092B40;
 	color: white; 
 	font-family: "Raleway", sans-serif;
 	overflow-x: hidden;
@@ -36,17 +36,18 @@ img:hover{
 	transform: scale(1.1);
 }
 
+
 .form{
 	height: 2.5em;
 	width: 30vw;
 }
 
 .button-Dimensions{
-	margin-top: 10px;
+	margin-left: -50px;
 	height: 35px;
 	width: 50px;
 	color: black;
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: white;
 	border-color: transparent;
 }
