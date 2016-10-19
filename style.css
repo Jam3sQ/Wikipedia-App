@@ -32,6 +32,9 @@ body{
 	width: auto;
 }
 
+img:hover{
+	transform: scale(1.1);
+}
 
 .form{
 	height: 2.5em;
